@@ -1,0 +1,62 @@
+body {
+    background-image:url('images/wp2763910.gif'); background-repeat:repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: "Inter", sans-serif;
+
+}
+.card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+.name {
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+.roky{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.Social_Links{
+    background-color: hsl(0, 0%, 20%);
+    padding: 20px 25px;
+    margin: 5px;
+    width: 80%;
+    border-radius: 8px;
+    font-weight: 700;
+    box-shadow: none;
+    color: white;
+    border: none;
+    text-align: center;
+}
+.social-links:hover {
+    background-color: greenyellow;
+}
+.social-links a:focus {
+    outline: greenyellow;
+}
+.social-links:focus-within {
+    background-color: greenyellow;
+}
+a {
+    color:greenyellow;
+    text-decoration: none;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
